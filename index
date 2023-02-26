@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <style>
+
+      html {
+        scroll-behavior: smooth;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        color: white;
+        background-color: brown;
+
+      }
+      section {
+        display:block;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      div {
+        display: block;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 20px;
+        position: fixed;
+        width: 100%;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+      
+      .logo {
+        width: 250px;
+        height: 100px;
+        padding-left: 35px;
+        cursor: pointer;
+      }
+
+      #ABOUT_ME, #PROJECTS, #SOCIALS {
+        display: flex;
+        flex_direction: column;
+        justify-content: center ;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      body {
+        position: relative;
+        font-family: sans-serif;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 25px 50px 25px 25px;
+      }
+
+      nav ul li a:hover {
+        color: rgb(76, 69, 150);
+      }
+
+      .welcome-section, projects-section {
+        margin-top: 1%;
+        margin-left: 15%;
+      }
+      
+      .about p {
+        font-size: 25px;
+      }
+
+       h2 {
+        font-size: 52px;
+        margin-bottom: 20px;
+        color: rgb(237,184,102);
+      }
+      
+      .projects-section h2 {
+        font-size: 
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+     
+      .welcome-section ,.projects-section {
+        justify-content: center;
+      }
+
+      #PROJECTS, #SOCIALS {
+        padding-top: 10px;
+      }
+      .name {
+        color:aqua;
+      }
+      .languages {
+        font-size: 30px;
+        color:antiquewhite;
+      }
+
+     .project-section, .links {
+        text-decoration: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 25px 50px 25px 25px;
+        display: inline-block;
+      }
+      .project-tiles {
+        justify-content: center;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .project-title:hover {
+        font-size: 35px;
+        transition: transform 0.2s ease-in-out;
+      }
+      .JS {
+        font-size: 38px;
+        color: red;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .cafemenu {
+        color: #6E4F37;
+        font-size: 38px;
+        transition: transform 0.2s ease-in-out;
+      }
+      .golang {
+        color: #00A6D1;
+      }
+
+      .link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #profile-link {
+        padding: 5px;
+      }
+      
+      .fab , .fas {
+        padding: 4px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    
+    <nav class="nav" id="navbar">
+      <img  src="https://www.iiitkottayam.ac.in/data/images/main/logo.jpg" class="logo">
+        <ul class="nav-list">
+          <li><a href="#ABOUT_ME">ABOUT ME</a></li>
+          <li><a href="#PROJECTS">PROJECTS</a>
+          <li><a href="#SOCIALS">SOCIALS</a></li> 
+        </ul>
+    </nav>
+    
+    <section id="ABOUT_ME" class="about">
+      
+      <div class="welcome-section">
+    
+        <h2>Hello, I am <span class="name">Piyush Deshpande</span></h2>
+        <p>An enthusiastic software developer currently pursuing B.Tech in Computer Science with specialization in Cybersecurity from Indian Institute Of Information Technology Kottayam.I have My hands on some programming and markup languages like<span class="languages"> C/C++, JavaScript, HTML5, CSS.</span></p>
+
+        
+      </div>
+    
+      <div class="image">
+        <img src="https://th.bing.com/th/id/OIP.gxYqS27tO72z-JTikiAyrAHaEn?pid=ImgDet&rs=1" alt="chopper image" >
+      </div>
+    
+    </section>
+    
+    <section id="PROJECTS">
+      
+      <div class="projects-section">
+      
+        <h2 class="projects">Some of my projects ...</h2>
+        <div class="project-tiles">
+          
+          <form>
+            
+          </form>
+          
+        </div>
+      </div>
+      
+    </section>
+    
+    <section id="SOCIALS">
+    
+      <div class="social-section-header">
+      
+        <h2>Reach me at ...</h2>
+        
+        <div class="links">
+            
+            <a id="profile-link" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            
+            <a id="profile-link" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            <a id="profile-link" href="mailto:piyushdeshpande003@gmail.com"><i class="fas fa-at"></i>Mail me</a>
+        </div> 
+        
+      </div>
+      
+    </section>
+   
+    
+  </body>
+  
+</html>
