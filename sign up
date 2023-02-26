@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <style>
+            body{
+               background-image:url("https://images.pexels.com/photos/1566308/pexels-photo-1566308.jpeg?cs=srgb&dl=pexels-jubair-bin-iqbal-1566308.jpg&fm=jpg");
+            }
+            
+                table{
+                       border-style:ridge;
+                       border-width:20px;
+                       
+                       
+                }
+            td{
+                color:aqua;
+                font-family:impact,serif;
+                font-size:20px;
+                font-weight:100px;
+                
+                
+            }
+            form{
+                text-align:center;
+                
+            }
+            .xyz{
+                font-size:  30px;
+                color:aqua;
+                font-style: italic;
+            }
+        </style>
+    </head>
+        <body>
+            
+            <form id="form"  >
+             <table align="center"style="width:50%" cellpadding="10" cellspacing="15" id="table">
+                    <tr>
+                        <td class="xyz"><center>Create Your Account</center></td>
+                    </tr>
+                    <tr>
+                        <td> First Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="fname" size="90" required></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="lname" size="90" required></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="email" size="90" required></td>
+                        </tr>
+                        <tr>
+                            <td >Password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" id="password" size="90" placeholder="Must Have At Least 8 Characters and Must Contain Special Symbols...." required></td>
+                        </tr>
+                        <tr>
+                            <td>Confirm your password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" id="repassword" size="90"></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" id="button" onclick="validation()" >SIGN IN</button></td>
+                            
+                        </tr>
+
+
+                        
+
+                    
+                </table>
+            </form>
+            <script type="text/javascript">
+                function validation(){
+
+                
+                   var a=document.getElementById("password").value;
+                   var b=document.getElementById("repassword").value;
+                  
+                   
+                   if(a==""){
+                   alert("Please enter the password");
+                    } 
+                    else if(a.length<8){
+                    alert("password should be greater than 8 characters");
+                    }
+                   if(a!=b){
+                   alert("password should match");
+                   }
+                   
+
+                
+                  window.open('CafeMenu.htm');
+                
+                }
+            </script>
+        </body>
+    
+</html>
