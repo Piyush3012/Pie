@@ -1,0 +1,22 @@
+.td{
+    font-family:impact,serif;
+    
+}
+body{
+   background-image: url("https://images.pexels.com/photos/1566308/pexels-photo-1566308.jpeg?cs=srgb&dl=pexels-jubair-bin-iqbal-1566308.jpg&fm=jpg");
+   background-attachment: fixed;
+   
+}
+.table{
+   background-color: aqua;
+}
+h1{
+font-family:impact,serif;
+
+}
+.relative{
+    position:relative;
+    left:50px;
+    font-style:italic;
+}
+
