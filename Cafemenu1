@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>Cafe Menu</title>
+    <link href="CafeMenu.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <div class="menu">
+      <header>
+        <h1>IIIT KOTTAYAM CAFE</h1>
+        <p class="established">Est. 2023</p>
+      </header>
+      <hr>
+      <main>
+        <section>
+          <h2>Coffee</h2>
+          
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <article class="item">
+            <hr>
+            <p class="flavor" >French Vanilla</p><p class="price">300 Rs</p>
+            <p > <a href="https://yourdreamcoffee.com/what-is-french-vanilla-coffee/" target="_blank">RECIPE</a></p>
+            <p></p>
+            <hr>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">375 Rs</p>
+            <p> <a href="https://athome.starbucks.com/recipe/caramel-macchiato" target="_blank">RECIPE</a></p>
+            <hr>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">350 Rs</p>
+            <p><a href="https://www.inspiredtaste.net/8419/pumpkin-spice-latte-at-home-recipe/" target="_blank">RECIPE</a></p>
+            <hr>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">400 Rs</p>
+            <p><a href="https://www.tasteofhome.com/recipes/hazelnut-coffee/" target="_blank">RECIPE</a></p>
+            <hr>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">450 Rs</p>
+            <p><a href="https://www.allrecipes.com/recipe/23538/mocha-coffee/" target="_blank">RECIPE</a></p>
+            <hr>
+          </article>
+        </section>
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">150 Rs</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">275 Rs</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">300 Rs</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">250 Rs</p>
+          </article>
+        </section>
+      </main>
+      <hr class="bottom-line"><br>
+      <button onclick="order()" class="order">PLACE ORDER</button>
+      <hr>
+      
+      <footer>
+        <p class="fus">FOLLOW US</p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <p>
+            
+            <a href="https://www.instagram.com/piyush__deshpande/" class="fa fa-instagram" target="_blank"></a>&nbsp &nbsp
+            <a href="https://twitter.com/home" class="fa fa-twitter" target="_blank"></a>&nbsp &nbsp
+            <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin" ></a>
+        </p>
+
+        
+
+
+
+
+      </footer>
+    </div>
+  </body>
+  <script> 
+  function order()
+  {
+       window.open('CafeMenu2.htm');
+       
+       
+}
+  </script>
+</html>
